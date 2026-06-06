@@ -11,9 +11,9 @@ from telegram.ext import (
     ContextTypes,
 )
 
-BOT_TOKEN  = os.environ.get("BOT_TOKEN", "TOKEN_BU_YERGA")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001234567890"))
-ADMIN_IDS  = [int(x) for x in os.environ.get("ADMIN_IDS", "123456789").split(",")]
+BOT_TOKEN  = os.environ.get("BOT_TOKEN", "8871745549:AAGjU4ieXckOXNi3qzCsO64JAUMlmujiVLw")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-3966932396"))
+ADMIN_IDS  = [int(x) for x in os.environ.get("ADMIN_IDS", "8043292489").split(",")]
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
